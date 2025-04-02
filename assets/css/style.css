@@ -4,6 +4,11 @@
     font-family: "Inter", sans-serif;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 .gear {
     animation: gear 4s infinite linear;
 }
@@ -22,30 +27,36 @@
     transition-timing-function: linear !important;
 }
 
-.arrow{
+.arrow {
     animation: arrow-animate 500ms linear infinite;
 }
-.arrow-two{
+
+.arrow-two {
     animation: arrow-animate 505ms linear infinite;
 }
-.arrow-three{
+
+.arrow-three {
     animation: arrow-animate 509ms linear infinite;
 }
-.arrow-four{
+
+.arrow-four {
     animation: arrow-animate 513ms linear infinite;
 }
-.arrow-five{
+
+.arrow-five {
     animation: arrow-animate 517ms linear infinite;
 }
-.arrow-six{
+
+.arrow-six {
     animation: arrow-animate 521ms linear infinite;
 }
 
 @keyframes arrow-animate {
-    0%{
+    0% {
         opacity: 100%;
     }
-    100%{
+
+    100% {
         opacity: 0;
     }
 }
