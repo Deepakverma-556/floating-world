@@ -60,3 +60,16 @@ body {
         opacity: 0;
     }
 }
+
+.d-none {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.active .down-arrow {
+    transform: rotate(180deg);
+}
+
+.active .accordion-details {
+    max-height: 200px;
+}
