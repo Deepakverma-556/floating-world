@@ -513,7 +513,9 @@
                     <p
                         class="font-bold text-[26px] max-md:text-2xl max-sm:text-xl leading-[100%] text-black text-center pt-[50px] pb-[17px] max-lg:pt-7 max-md:pt-6 max-sm:pt-4 max-md:pb-2 max-lg:pb-3">
                         Set it and forget it</p>
-                    <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-w-[308px] mx-auto text-center max-md:text-base">We
+                    <p
+                        class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-w-[308px] mx-auto text-center max-md:text-base">
+                        We
                         pay fanatical
                         attention to your website so you don't have to.</p>
                 </div>
@@ -1794,11 +1796,20 @@
                         <h3 class="font-bold text-[51px] max-md:text-[44px] max-sm:text-4xl leading-[100%]">Memberships
                         </h3>
                         <div
-                            class="flex items-center bg-black p-[3px] rounded-full max-w-max gap-1 mt-9 max-md:mt-6 mb-[23px]">
+                            class="p-[3px] bg-black w-full max-w-[264px] relative min-h-[42px] rounded-full group mt-9 mb-[23px] max-xl:mt-6 max-lg:my-[18px] max-md:my-3">
+                            <div id="customButton"
+                                class="w-full cursor-pointer max-w-[130px] h-9 rounded-full bg-[#00AFE1] transition-all duration-200 ease-linear">
+                            </div>
                             <button
-                                class="bg-sky py-[10px] cursor-pointer max-md:text-sm max-md:px-6 max-sm:text-xs max-sm:px-4 px-11 font-semibold text-base leading-[100%] text-white transition-all duration-300 hover:bg-black rounded-full">Basic</button>
+                                class="absolute cursor-pointer text-white z-[1] top-1/2 -translate-y-1/2 left-[15%] text-base leading-[100%] font-semibold max-md:text-sm max-md:left-[17%]"
+                                onclick="moveButton('left')">
+                                Basic
+                            </button>
                             <button
-                                class="bg-transparent py-[10px] cursor-pointer max-md:text-sm max-md:px-6 max-sm:text-xs max-sm:px-4 px-[25px] font-semibold text-base leading-[100%] text-white transition-all duration-300 hover:bg-sky rounded-full">Advanced</button>
+                                class="absolute cursor-pointer text-white z-[1] top-1/2 -translate-y-1/2 right-[10%] text-base leading-[100%] font-semibold max-md:text-sm max-md:right-[12%]"
+                                onclick="moveButton('right')">
+                                Advanced
+                            </button>
                         </div>
                         <p
                             class="font-bold text-5xl max-md:text-4xl max-sm:text-3xl leading-[82px] max-md:leading-[100%] max-md:pb-1">
@@ -1856,122 +1867,147 @@
                     </h2>
                     <div class="accordionbox">
                         <div class="accordionbutton gap-5 cursor-pointer flex justify-between items-center">
-                            <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
-                            <svg class="down-arrow transition-all duration-300" width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem
+                                ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                            <svg class="down-arrow transition-all duration-300" width="19" height="12"
+                                viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M9.5 11.2695L10.3828 10.3867L17.8828 2.88672L18.7695 2L17 0.230469L16.1172 1.11328L9.5 7.73047L2.88281 1.11719L2 0.230469L0.230469 2L1.11328 2.88281L8.61328 10.3828L9.5 11.2695Z"
                                     fill="black" />
                             </svg>
 
                         </div>
-                        <p class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
+                        <p
+                            class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
                             Nibh dictum nulla morbi ornare. Varius sit at eget nunc.
-                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius
+                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare.
+                            Varius
                             sit at eget nunc.</p>
                     </div>
                     <div class="accordionbox">
                         <div class="accordionbutton gap-5 cursor-pointer flex justify-between items-center">
-                           <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
-                            <svg class="down-arrow transition-all duration-300" width="19" height="12" viewBox="0 0 19 12" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem
+                                ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                            <svg class="down-arrow transition-all duration-300" width="19" height="12"
+                                viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M9.5 11.2695L10.3828 10.3867L17.8828 2.88672L18.7695 2L17 0.230469L16.1172 1.11328L9.5 7.73047L2.88281 1.11719L2 0.230469L0.230469 2L1.11328 2.88281L8.61328 10.3828L9.5 11.2695Z"
                                     fill="black" />
                             </svg>
                         </div>
-                        <p class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 max-xl:max-w-full mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
+                        <p
+                            class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 max-xl:max-w-full mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
                             Nibh dictum nulla morbi ornare. Varius sit at eget nunc.
-                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius
+                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare.
+                            Varius
                             sit at eget nunc.</p>
                     </div>
                     <div class="accordionbox">
                         <div class="accordionbutton gap-5 cursor-pointer flex justify-between items-center">
-                           <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
-                            <svg class="down-arrow transition-all duration-300" width="19" height="12" viewBox="0 0 19 12" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem
+                                ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                            <svg class="down-arrow transition-all duration-300" width="19" height="12"
+                                viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M9.5 11.2695L10.3828 10.3867L17.8828 2.88672L18.7695 2L17 0.230469L16.1172 1.11328L9.5 7.73047L2.88281 1.11719L2 0.230469L0.230469 2L1.11328 2.88281L8.61328 10.3828L9.5 11.2695Z"
                                     fill="black" />
                             </svg>
                         </div>
-                        <p class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 max-xl:max-w-full mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
+                        <p
+                            class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 max-xl:max-w-full mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
                             Nibh dictum nulla morbi ornare. Varius sit at eget nunc.
-                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius
+                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare.
+                            Varius
                             sit at eget nunc.</p>
                     </div>
                     <div class="accordionbox">
                         <div class="accordionbutton gap-5 cursor-pointer flex justify-between items-center">
-                           <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
-                            <svg class="down-arrow transition-all duration-300" width="19" height="12" viewBox="0 0 19 12" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem
+                                ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                            <svg class="down-arrow transition-all duration-300" width="19" height="12"
+                                viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M9.5 11.2695L10.3828 10.3867L17.8828 2.88672L18.7695 2L17 0.230469L16.1172 1.11328L9.5 7.73047L2.88281 1.11719L2 0.230469L0.230469 2L1.11328 2.88281L8.61328 10.3828L9.5 11.2695Z"
                                     fill="black" />
                             </svg>
                         </div>
-                        <p class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 max-xl:max-w-full mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
+                        <p
+                            class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 max-xl:max-w-full mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
                             Nibh dictum nulla morbi ornare. Varius sit at eget nunc.
-                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius
+                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare.
+                            Varius
                             sit at eget nunc.</p>
                     </div>
                     <div class="accordionbox">
                         <div class="accordionbutton gap-5 cursor-pointer flex justify-between items-center">
-                           <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
-                            <svg class="down-arrow transition-all duration-300" width="19" height="12" viewBox="0 0 19 12" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem
+                                ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                            <svg class="down-arrow transition-all duration-300" width="19" height="12"
+                                viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M9.5 11.2695L10.3828 10.3867L17.8828 2.88672L18.7695 2L17 0.230469L16.1172 1.11328L9.5 7.73047L2.88281 1.11719L2 0.230469L0.230469 2L1.11328 2.88281L8.61328 10.3828L9.5 11.2695Z"
                                     fill="black" />
                             </svg>
                         </div>
-                        <p class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 max-xl:max-w-full mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
+                        <p
+                            class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 max-xl:max-w-full mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
                             Nibh dictum nulla morbi ornare. Varius sit at eget nunc.
-                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius
+                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare.
+                            Varius
                             sit at eget nunc.</p>
                     </div>
                     <div class="accordionbox">
                         <div class="accordionbutton gap-5 cursor-pointer flex justify-between items-center">
-                           <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
-                            <svg class="down-arrow transition-all duration-300" width="19" height="12" viewBox="0 0 19 12" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem
+                                ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                            <svg class="down-arrow transition-all duration-300" width="19" height="12"
+                                viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M9.5 11.2695L10.3828 10.3867L17.8828 2.88672L18.7695 2L17 0.230469L16.1172 1.11328L9.5 7.73047L2.88281 1.11719L2 0.230469L0.230469 2L1.11328 2.88281L8.61328 10.3828L9.5 11.2695Z"
                                     fill="black" />
                             </svg>
                         </div>
-                        <p class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 max-xl:max-w-full mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
+                        <p
+                            class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 max-xl:max-w-full mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
                             Nibh dictum nulla morbi ornare. Varius sit at eget nunc.
-                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius
+                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare.
+                            Varius
                             sit at eget nunc.</p>
                     </div>
                     <div class="accordionbox">
                         <div class="accordionbutton gap-5 cursor-pointer flex justify-between items-center">
-                           <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
-                            <svg class="down-arrow transition-all duration-300" width="19" height="12" viewBox="0 0 19 12" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem
+                                ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                            <svg class="down-arrow transition-all duration-300" width="19" height="12"
+                                viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M9.5 11.2695L10.3828 10.3867L17.8828 2.88672L18.7695 2L17 0.230469L16.1172 1.11328L9.5 7.73047L2.88281 1.11719L2 0.230469L0.230469 2L1.11328 2.88281L8.61328 10.3828L9.5 11.2695Z"
                                     fill="black" />
                             </svg>
                         </div>
-                        <p class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 max-xl:max-w-full mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
+                        <p
+                            class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 max-xl:max-w-full mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
                             Nibh dictum nulla morbi ornare. Varius sit at eget nunc.
-                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius
+                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare.
+                            Varius
                             sit at eget nunc.</p>
                     </div>
                     <div class="accordionbox">
                         <div class="accordionbutton gap-5 cursor-pointer flex justify-between items-center">
-                           <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
-                            <svg class="down-arrow transition-all duration-300" width="19" height="12" viewBox="0 0 19 12" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <p class="font-medium text-lg leading-[26px] max-sm:leading-[130%] max-md:text-base">Lorem
+                                ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                            <svg class="down-arrow transition-all duration-300" width="19" height="12"
+                                viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M9.5 11.2695L10.3828 10.3867L17.8828 2.88672L18.7695 2L17 0.230469L16.1172 1.11328L9.5 7.73047L2.88281 1.11719L2 0.230469L0.230469 2L1.11328 2.88281L8.61328 10.3828L9.5 11.2695Z"
                                     fill="black" />
                             </svg>
                         </div>
-                        <p class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 max-xl:max-w-full mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
+                        <p
+                            class="accordion-details d-none max-w-[500px] max-lg:max-w-full pr-10 max-xl:max-w-full mt-3 max-md:mt-1 transition-all duration-300 max-sm:text-xs">
                             Nibh dictum nulla morbi ornare. Varius sit at eget nunc.
-                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius
+                            Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare.
+                            Varius
                             sit at eget nunc.</p>
                     </div>
                 </div>
@@ -1990,13 +2026,16 @@
                                 d="M147.904 35C147.415 34.9587 146.923 34.9378 146.429 34.9378H140.571V17.5714C140.571 12.9091 138.721 8.44013 135.423 5.14842C132.131 1.85084 127.662 0 123 0H17.5714C12.9091 0 8.44013 1.85084 5.14842 5.14842C1.85084 8.44013 0 12.9091 0 17.5714V99.5714C0 104.234 1.85084 108.703 5.14842 111.994C8.44013 115.292 12.9091 117.143 17.5714 117.143H23V105.429H17.5714C16.0193 105.429 14.5257 104.814 13.4304 103.712C12.3293 102.617 11.7143 101.124 11.7143 99.5714V17.5714C11.7143 16.0193 12.3293 14.5257 13.4304 13.4304C14.5257 12.3293 16.0193 11.7143 17.5714 11.7143H123C124.552 11.7143 126.046 12.3293 127.141 13.4304C128.242 14.5257 128.857 16.0193 128.857 17.5714V34.9378H41C40.5055 34.9378 40.0131 34.9587 39.5241 35H147.904Z"
                                 fill="#333333" />
                         </svg>
-                        <h4 class="max-w-[450px] text-center font-bold text-5xl max-md:text-4xl max-sm:text-3xl max-sm:leading-[120%] leading-[58px] pt-[37px] pb-7 max-md:pt-2 max-md:pb-4">Book a
+                        <h4
+                            class="max-w-[450px] text-center font-bold text-5xl max-md:text-4xl max-sm:text-3xl max-sm:leading-[120%] leading-[58px] pt-[37px] pb-7 max-md:pt-2 max-md:pb-4">
+                            Book a
                             15-minute intro call</h4>
                         <button
                             class="border hover:from-white hover:to-sky hover:text-black border-black rounded-[14px] bg-gradient-to-b from-black to-gray font-bold text-xl max-md:text-base max-md:px-8 max-md:py-4 max-sm:py-3 leading-[100%] text-white px-[54.6px] py-[22.7px] mx-auto flex cursor-pointer">Schedule
                             Now</button>
-                        <p class="font-medium text-[22px] max-md:text-xl max-sm:text-base leading-[11px] pt-[61px] max-md:pt-8">Prefer to email? <a
-                                href="mailto:hello@floatingworld.ca"
+                        <p
+                            class="font-medium text-[22px] max-md:text-xl max-sm:text-base leading-[11px] pt-[61px] max-md:pt-8">
+                            Prefer to email? <a href="mailto:hello@floatingworld.ca"
                                 class="font-semibold text-sky transition-all duration-300 hover:underline">hello@floatingworld.ca</a>
                         </p>
                     </div>
@@ -2116,14 +2155,22 @@
         });
 
         const accordionbox = document.querySelectorAll('.accordionbox')
-            accordionbox.forEach(item => {
-                item.addEventListener('click', () => {
-                    const accordionActive = document.querySelector('.accordionbox.active');
-                    item.classList.toggle('active');
-                    accordionActive && accordionActive.classList.remove('active')
-                })
+        accordionbox.forEach(item => {
+            item.addEventListener('click', () => {
+                const accordionActive = document.querySelector('.accordionbox.active');
+                item.classList.toggle('active');
+                accordionActive && accordionActive.classList.remove('active')
             })
+        })
 
+        function moveButton(direction) {
+            const customButton = document.getElementById("customButton");
+            if (direction === "left") {
+                customButton.style.transform = "translateX(0)";
+            } else if (direction === "right") {
+                customButton.style.transform = "translateX(98%)";
+            }
+        }
     </script>
 </body>
 
